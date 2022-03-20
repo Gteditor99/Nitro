@@ -1,0 +1,14 @@
+name: Nitro
+version: '${project.version}'
+main: com.editor99.nitro.Nitro
+api-version: 1.17
+authors: [ editor99 ]
+description: Nitro is a minecraft server management plugin
+commands:
+  help:
+    description: Show help
+    usage: /nitro help
+    aliases: [ ? ]
+    permission: nitro.help
+
+
